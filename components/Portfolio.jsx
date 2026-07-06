@@ -26,6 +26,14 @@ const projects = [
       "The site you're on right now. Built from scratch with Next.js and a hand rolled CSS system, reveal animations, a custom cursor, and a marquee that warps with scroll velocity.",
     tags: ["Next.js", "React", "CSS", "Motion"],
   },
+  {
+    n: "04",
+    title: "Core Siege",
+    role: "Solo build",
+    blurb:
+      "A fun browser game where you rotate, aim, and defend the reactor core from incoming enemies. Built with smooth gameplay and wave-based progression.",
+    tags: ["HTML5", "JavaScript", "CSS3", "Canvas API"],
+  },
 ];
 
 const skills = [
