@@ -7,8 +7,8 @@ const projects = [
     title: "Agentic AI Project Manager",
     role: "Solo build",
     blurb:
-      "An agentic AI prototype that autonomously generates and adapts project workflows. LLM driven rerouting cut simulated delays by 40 percent and saved 25 hours a month in manual tracking.",
-    tags: ["LangChain", "CrewAI", "Python", "LLM APIs"],
+      "AI project manager that turns a plain-English idea into a task plan. It then watches the project and fixes routine problems on its own, asking a human only when it isn’t sure. Built with FastAPI, PostgreSQL and Llama 3.3 via Groq.",
+    tags: ["Python", "FastAPI", "PostgreSQL", "Llama 3.3 70B"],
   },
   {
     n: "02",
@@ -16,7 +16,7 @@ const projects = [
     role: "Full-stack, 3 person team",
     blurb:
       "Built the production backend for a student book marketplace. 15 plus REST routes across auth, listings, wishlist and collections, wired to Supabase and a React Vite client.",
-    tags: ["React", "Node", "Express", "Supabase"],
+    tags: ["React", "Node.js", "Express", "Supabase"],
   },
   {
     n: "03",
@@ -324,22 +324,19 @@ export default function Portfolio() {
       <section id="about" className="about">
         <Reveal className="kicker-wrap"><span className="kicker">what I do</span></Reveal>
         <Reveal as="h2" className="about-h" delay={60}>
-          I build agentic AI systems and interfaces that <em>think</em> alongside you.
+          Somewhere between writing code, breaking things and making AI work <em>smarter</em>.
         </Reveal>
         <Reveal as="p" className="lede" delay={100}>
-          Final year CSE student at GEU Dehradun, currently looking for a team to build real things with.
+          Final year CSE student, currently looking for a team to build real things with.
         </Reveal>
         <Reveal className="about-body" delay={140}>
           <p>
-            I spend most of my time inside agentic AI systems and LLM orchestration,
-            figuring out how to make multi agent workflows actually reliable instead
-            of just impressive in a demo. LangChain, LangGraph and CrewAI are where I
-            live most days.
+          Lately, I've been exploring agentic AI, building LLM-powered tools,
+           and experimenting with ways to make technology more interactive.
           </p>
           <p>
-            Outside of code I sing, sketch, and do fashion illustration, which keeps
-            the <em>creative and technical</em> sides of my brain equally fed. GCP and
-            AWS certified, always building something in public.
+          I like learning by doing, figuring things out along the way, and turning ideas into something tangible.
+           This portfolio is a little collection of what I've been working on and what I'm exploring.
           </p>
         </Reveal>
         <Reveal className="skills" delay={180}>
