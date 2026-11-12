@@ -7,7 +7,7 @@ const projects = [
     title: "Agentic AI Project Manager",
     role: "Solo build",
     blurb:
-      "AI project manager that turns a plain-English idea into a task plan. It then watches the project and fixes routine problems on its own, asking a human only when it isn’t sure. Built with FastAPI, PostgreSQL and Llama 3.3 via Groq.",
+      "AI project manager that turns a plain-English idea into a task plan. It then watches the project and fixes routine problems on its own, asking a human only when it isn’t sure.",
     tags: ["Python", "FastAPI", "PostgreSQL", "Llama 3.3 70B"],
   },
   {
@@ -285,7 +285,7 @@ export default function Portfolio() {
       {/* nav — TODO: swap for Dock or GooeyNav once that's decided */}
       <header className={`nav ${navSolid ? "solid" : ""}`}>
         <a href="#top" className="brand">SK<span className="dot">.</span></a>
-        <span className="pill"><span className="ping" /> open to summer ’26 internships</span>
+        <span className="pill"><span className="ping" /> open to ’27 internships</span>
         <nav className="links">
           <a href="#about">what I do</a>
           <a href="#work">work</a>
@@ -297,7 +297,7 @@ export default function Portfolio() {
       <section id="top" className="hero">
         <TerminalBackdrop />
         <div className="hero-veil" aria-hidden="true" />
-        <span className="eyebrow"><span className="ping" /> CSE Undergrad'27 · agentic AI engineer</span>
+        <span className="eyebrow"><span className="ping" /> CSE Undergrad'27 </span>
         <h1 className="title">
           <DecryptText text="Sainya" delay={60} />
           <DecryptText text="Krishnamurthy" className="line2" delay={260} />
@@ -311,7 +311,7 @@ export default function Portfolio() {
           <div className="marq-row">
             {Array.from({ length: 2 }).map((_, k) => (
               <span key={k} className="marq-track">
-                {["frontend", "creative dev", "motion", "react", "webgl-curious", "ui"].map((w, i) => (
+                {["Python", "Creative Dev", "LangChain", "LangGraph", "React", "LLMs"].map((w, i) => (
                   <span key={i} className="marq-item">{w}<span className="star">✦</span></span>
                 ))}
               </span>
