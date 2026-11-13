@@ -375,7 +375,7 @@ export default function Portfolio() {
             <a href="https://linkedin.com/in/sainyakd" target="_blank" rel="noreferrer">LinkedIn</a>
             <a href="https://github.com/sainyakris" target="_blank" rel="noreferrer">GitHub</a>
             <a href="mailto:sainyakd@gmail.com">Email</a>
-            <a href="/resume.pdf" download>Resume</a>
+            <a href="/Resume.pdf" download>Resume</a>
           </div>
         </Reveal>
         <footer className="foot">
